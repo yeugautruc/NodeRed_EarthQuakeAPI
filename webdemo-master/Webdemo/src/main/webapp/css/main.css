@@ -1,0 +1,29 @@
+body{
+	font-size: 1.2em;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.cover{
+	object-fit: cover;
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	display: inherit;
+}
+.content{
+	z-index: 100;
+	display: flex;
+	position: relative;
+	padding: 0px 0%;
+}
+.content p a{
+	color: white;
+}
+.content p{
+	width: 20%;
+	text-align: left;
+	margin-left: 2%;
+	font-size: 1.5em;
+}
